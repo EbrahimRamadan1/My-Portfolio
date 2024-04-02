@@ -1,0 +1,30 @@
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  @media screen and (max-width: 767px) {
+    height: 35vh;
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    height: 40vh;
+  }
+  img {
+    object-fit: cover;
+    height: 65vh;
+    border-radius: 50px 50px 50px 50px;
+    @media screen and (max-width: 767px) {
+      height: 35vh;
+      border-radius: 50% 50%;
+      border: 5px solid #ffb400;
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      height: 40vh;
+      border-radius: 50% 50%;
+      border: 5px solid #ffb400;
+    }
+  }
+}

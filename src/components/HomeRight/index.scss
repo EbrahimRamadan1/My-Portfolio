@@ -1,0 +1,12 @@
+div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    justify-content: center;
+  }
+}

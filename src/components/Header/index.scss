@@ -1,0 +1,29 @@
+.header {
+  width: 4%;
+  height: 80vh;
+  position: fixed;
+  top: 10vh;
+  right: 2%;
+  z-index: 500;
+  border-radius: 35px 35px 35px 35px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  flex-wrap: nowrap;
+  .iconClass {
+    background-color: #2b2a2a;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50% 50%;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    display: none;
+  }
+}

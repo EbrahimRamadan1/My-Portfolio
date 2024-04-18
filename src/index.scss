@@ -28,6 +28,8 @@ p,
 h1,
 h2,
 h3,
+h4,
+h5,
 span,
 ul {
   margin: 0;
@@ -60,7 +62,7 @@ body {
       line-height: 52px;
       font-size: 42px;
       font-weight: 800;
-      padding-bottom: 51px;
+      // padding-bottom: 40px;
       span {
         color: #ffb400;
         font-weight: 800;
@@ -69,41 +71,81 @@ body {
         }
         @media screen and (min-width: 768px) and (max-width: 992px) {
           font-weight: 700;
+          text-align: center;
         }
       }
       @media screen and (max-width: 767px) {
         // text-align: center;
         font-size: 28px;
-        line-height: 30px;
-        padding-bottom: 30px 0;
+        line-height: 25px;
+        padding-bottom: 15px;
         font-weight: 600;
       }
       @media screen and (min-width: 768px) and (max-width: 992px) {
         line-height: 48px;
         font-size: 35px;
         font-weight: 700;
-        padding: 5px 0;
+        padding-bottom: 5px;
         text-align: center;
+      }
+      @media screen and (min-width: 993px) and (max-width: 1439px) {
+        line-height: 40px;
+        font-size: 35px;
+        font-weight: 700;
+        span {
+          line-height: 40px;
+          font-size: 35px;
+          font-weight: 700;
+        }
       }
     }
     p {
       line-height: 35px;
       color: white;
-      font-size: 25px;
+      font-size: 22px;
       @media screen and (max-width: 767px) {
         // text-align: center;
         font-size: 15px;
         line-height: 30px;
       }
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        text-align: center;
+        font-size: 25px;
+        line-height: 35px;
+      }
+      @media screen and (min-width: 993px) and (max-width: 1439px) {
+        text-align: start;
+        font-size: 18px;
+        line-height: 28px;
+      }
     }
     @media screen and (max-width: 767px) {
       padding: 0 1rem;
     }
-    @media screen and (min-width: 768px) and (max-width: 992px){
-      text-align: center;
-      font-size: 15px;
-      line-height: 30px;
+  }
+  h3 {
+    color: white;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 800;
+    // padding-left: 74px;
+    @media screen and (min-width: 993px) and (max-width: 1439px) {
+      // padding-left: 46px;
     }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      padding-left: 0;
+      text-align: center;
+    }
+    @media screen and (max-width: 767px){
+      padding: 0;
+      font-size: 22px;
+    }
+  }
+  h4{
+    color: white;
+  }
+  h5{
+    color: #ffb400;
   }
 }
 

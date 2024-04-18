@@ -1,0 +1,19 @@
+.Portfolio {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 5%;
+  a {
+    text-decoration: none;
+    transition: ease all 400ms;
+    color: #ffb400;
+  }
+}
+a:hover {
+  color: white;
+}

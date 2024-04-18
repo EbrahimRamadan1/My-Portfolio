@@ -1,0 +1,34 @@
+.headerS {
+  display: none;
+  position: fixed;
+  background-color: #2b2a2a;
+  border-radius: 50% 50% 50% 50%;
+  color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: ease all 800ms;
+  text-decoration: none;
+  top: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .headerS {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    right: 7px;
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .headerS {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    right: 20px;
+  }
+}

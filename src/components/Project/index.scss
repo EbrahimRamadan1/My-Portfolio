@@ -1,0 +1,58 @@
+.project {
+  height: auto;
+  display: flex;
+  border: 2px solid #ffb400;
+  flex-direction: row;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 1%;
+  gap: 22px;
+  p{
+    text-align: start !important;
+    font-size: 17px !important;
+    line-height: 25px !important;
+  }
+  .row {
+    .arrow2 {
+      padding-top: 2px !important;
+      font-size: 20px;
+    }
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+    .projecSpan {
+      color: rgba(255, 255, 255, 0.3098039216) !important;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 42% !important;
+    border: 2px solid #ffb400;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 17px;
+    border-radius: 55px 55px;
+    text-decoration: none;
+    padding: 10px 0;
+    .arrow2{
+        font-size: 15px;
+    }
+  }
+  h5{
+    color: white !important;
+  }
+}

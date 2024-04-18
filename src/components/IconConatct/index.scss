@@ -1,0 +1,19 @@
+.contanctLink {
+  background-color: #2b2a2a;
+  border-radius: 50% 50% 50% 50%;
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  transition: ease all 800ms;
+  text-decoration: none;
+}
+.contanctLink:hover {
+  background-color: #ffb400;
+}

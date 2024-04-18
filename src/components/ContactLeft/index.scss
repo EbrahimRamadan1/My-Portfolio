@@ -1,0 +1,33 @@
+.Left {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 35px;
+  .iContainer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    span {
+      color: rgba(255, 255, 255, 0.3098039216) !important;
+    }
+  }
+  .links {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+  }
+}

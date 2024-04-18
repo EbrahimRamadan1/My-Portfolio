@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "icon": "fa-brands fa-html5",
+    "title": "html5"
+  },
+  {
+    "id": 2,
+    "icon": "fa-brands fa-css3-alt",
+    "title": "Css3"
+  },
+  {
+    "id": 3,
+    "icon": "fa-brands fa-sass",
+    "title": "Sass"
+  },
+  {
+    "id": 4,
+    "icon": "fa-brands fa-js",
+    "title": "JavaScript"
+  },
+  {
+    "id": 5,
+    "icon": "fa-brands fa-bootstrap",
+    "title": "Bootstrap"
+  },
+  {
+    "id": 6,
+    "icon": "fa-brands fa-wordpress",
+    "title": "WordPress"
+  },
+  {
+    "id": 7,
+    "icon": "fa-brands fa-react",
+    "title": "React.Js"
+  },
+  {
+    "id": 8,
+    "icon": "fa-solid fa-globe",
+    "title": "All React.Js tools"
+  },
+  {
+    "id": 9,
+    "icon": "fa-brands fa-git",
+    "title": "Git"
+  },
+  {
+    "id": 10,
+    "icon": "fa-brands fa-github",
+    "title": "GitHub"
+  },
+  {
+    "id": 11,
+    "icon": "fa-solid fa-circle-exclamation",
+    "title": "Problem Solving"
+  },
+  {
+    "id": 12,
+    "icon": "fa-solid fa-layer-group",
+    "title": "Responsive design"
+  }
+]

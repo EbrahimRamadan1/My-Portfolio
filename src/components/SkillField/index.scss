@@ -1,0 +1,54 @@
+.skillField {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 22px;
+  transition: ease all 400ms;
+  .iconCintainer {
+    color: #ffb400;
+    font-size: 70px;
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    transition: ease-in-out 400ms;
+  }
+}
+
+.skillField:hover {
+  .iconCintainer {
+    color: white;
+    font-size: 75px;
+  }
+  p {
+    color: #ffb400 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skillField {
+    gap: 10px;
+    .iconCintainer {
+      font-size: 50px;
+    }
+    p {
+      font-size: 20px !important  ;
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .skillField{
+    gap: 0px;
+    .iconCintainer{
+      font-size: 50px !important;
+    }
+  }
+}

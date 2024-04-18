@@ -9,7 +9,7 @@ export default function HomeRight() {
         Frontend Developer
       </h2>
       <p>
-        I'm a Egyption based web designer & front‑end developer focused on
+        I'm an Egyption based web designer & front‑end developer focused on
         crafting clean & user‑friendly experiences, I am passionate about
         building excellent software that improves the lives of those around me.
       </p>

@@ -1,0 +1,19 @@
+.EducationField {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  gap: 10px;
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    height: auto;
+  }
+}

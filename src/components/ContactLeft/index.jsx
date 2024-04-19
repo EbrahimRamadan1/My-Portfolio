@@ -3,7 +3,7 @@ import "./index.scss";
 
 export default function ContactLeft() {
   return (
-    <div className="Left col-5">
+    <div className="Left col-12 col-lg-5">
       <h3 className="col-12">DON'T BE SHY !</h3>
 
       <p className="col-12">

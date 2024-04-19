@@ -13,6 +13,11 @@
   font-size: 21px;
   transition: ease all 800ms;
   text-decoration: none;
+  @media screen and (max-width: 767px) {
+    width: 35px;
+    height: 35px;
+  font-size: 18px;
+  }
 }
 .contanctLink:hover {
   background-color: #ffb400;

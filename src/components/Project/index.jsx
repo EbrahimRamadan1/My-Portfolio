@@ -5,7 +5,7 @@ export default function Project(props) {
   const [isHOvered, setIsHoverd] = useState(false);
 
   return (
-    <div className="project col-4">
+    <div className="project col-12 col-md-5 col-lg-3">
       <div className="row col-12">
         <i className="fa-solid fa-file-signature col-1 arrow2"></i>
         <h5 className="col-10">
@@ -17,14 +17,14 @@ export default function Project(props) {
         <i className="fa-solid fa-pen-nib col-1 arrow2"></i>
         <p className="col-10">
           {" "}
-          <span className="projecSpan">Descrition:</span> {props.discription}
+          <span className="projecSpan">Descrition:</span><br/>  {props.discription}
         </p>
       </div>
 
       <div className="row col-12">
         <i className="fa-solid fa-code col-1 arrow2"></i>
         <p className="col-11">
-          <span className="projecSpan">Languages:</span> {props.languages}
+          <span className="projecSpan">Languages:</span><br/>  {props.languages}
         </p>
       </div>
 

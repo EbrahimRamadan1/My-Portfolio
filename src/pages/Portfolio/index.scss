@@ -13,6 +13,12 @@
     transition: ease all 400ms;
     color: #ffb400;
   }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    gap: 26px;
+  }
+  @media screen and (max-width: 767px){
+    gap: 25px;
+  }
 }
 a:hover {
   color: white;

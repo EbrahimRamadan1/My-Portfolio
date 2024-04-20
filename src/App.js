@@ -24,7 +24,6 @@ const queryClient = new QueryClient({
 
 function App() {
   const [clicked] = useRecoilState($HeaderModal);
-  console.log(clicked);
   return (
     <div className="app col-12">
       <BrowserRouter>
@@ -33,10 +32,9 @@ function App() {
             position="top-right"
             reverseOrder={false}
             containerStyle={{
-              
-              height:"auto"
+              height: "auto",
             }}
-            gutter={0}
+            // gutter={0}
           />
 
           <Header />

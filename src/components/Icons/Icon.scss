@@ -39,7 +39,10 @@
     color: white;
   }
 }
-a.active {
-  color: white;
-  background-color: #ffb400;
+
+@media screen and (min-width: 994px) {
+  a.active {
+    color: white;
+    background-color: #ffb400;
+  }
 }

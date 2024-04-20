@@ -31,4 +31,31 @@
       font-size: 30px;
     }
   }
+  // ::-webkit-scrollbar {
+  //   width: 5px;
+
+  // }
+  // ::-webkit-scrollbar-track {
+  //   background: #2b2a2a;
+  // }
+  // ::-webkit-scrollbar-thumb {
+  //   background: #ffb400;
+  // }
+  // ::-webkit-scrollbar-thumb:hover {
+  //   background: #9b6e04;
+  // }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2b2a2a;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffb400;
+  border-radius: 10px 10px;
+  
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9b6e04;
 }

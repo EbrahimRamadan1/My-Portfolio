@@ -1,9 +1,96 @@
-.headerModal{
+.headerModal {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 22, 22, 0.6941176471);
+  z-index: 1000000;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  .containerS {
+    background-color: #252525;
     height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: red;
-    z-index: 1000000;
+    padding: 2vh 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 42px;
+    .iconS {
+      display: flex;
+      height: auto;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      justify-content: flex-end;
+      align-items: flex-start;
+      i {
+        color: white;
+        transition: ease all 400ms;
+      }
+    }
+    .HeaderSContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 18px;
+    }
+    .linkS {
+      display: flex;
+      height: auto;
+      text-decoration: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 18px;
+      gap: 12px;
+      padding: 1vh 1%;
+      color: white;
+      .lineSpan {
+        width: 100%;
+      }
+      p {
+        font-size: 20px !important;
+      }
+      .lincIcon {
+        color: white;
+        padding-bottom: 3px;
+      }
+    }
+    .links {
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .contanctLink {
+      background-color: #474747;
+    }
+
+    .linkS.active {
+      color: #ffb400 !important;
+      .lincIcon {
+        color: #ffb400 !important;
+      }
+    }
+  }
+}
+.arrow2:hover {
+  color: #ffb400 !important;
 }

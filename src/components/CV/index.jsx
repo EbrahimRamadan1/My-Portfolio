@@ -7,7 +7,9 @@ export default function Button(props) {
   const [isHOvered, setIsHoverd] = useState(false);
   return (
     <>
-      <div
+      <a
+        href="/Ebrahim Ramadan Ebrahim CV.pdf"
+        download="Ebrahim Ramadan Ebrahim CV.pdf"
         onClick={() => navigation("/About")}
         className="button2"
         onMouseEnter={() => setIsHoverd(true)}
@@ -22,14 +24,9 @@ export default function Button(props) {
             : null
         }
       >
-        <a
-          href="/Ebrahim Ramadan Ebrahim CV.pdf"
-          download="Ebrahim Ramadan Ebrahim CV.pdf"
-        >
-          Download CV
-        </a>
+        Download CV
         <i className="iconButton fa-solid fa-circle-down"></i>
-      </div>
+      </a>
     </>
   );
 }

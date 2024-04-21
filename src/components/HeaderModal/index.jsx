@@ -8,7 +8,10 @@ import { $HeaderModal } from "../../store";
 export default function HeaderModal() {
   const [, setClicked] = useRecoilState($HeaderModal);
   return (
-    <div className="headerModal col-12 d-lg-none " onClick={() => setClicked(0)}>
+    <div
+      className="headerModal col-12 d-lg-none "
+      onClick={() => setClicked(0)}
+    >
       <div
         className="containerS col-9 col-md-5 d-lg-none animate__animated animate__slideInLeft"
         onClick={(e) => e.stopPropagation()}
@@ -20,25 +23,41 @@ export default function HeaderModal() {
           />
         </div>
         <div className="HeaderSContainer col-12">
-          <NavLink className="linkS col-12" to="/">
+          <NavLink
+            className="linkS col-12"
+            to="/"
+            onClick={() => setClicked(0)}
+          >
             <i className="fa-solid fa-house lincIcon col-2" />
             HOME
             <span className="lineSpan col-12" />
           </NavLink>
 
-          <NavLink className="linkS col-12" to="/About">
+          <NavLink
+            className="linkS col-12"
+            to="/About"
+            onClick={() => setClicked(0)}
+          >
             <i className="fa-solid fa-user lincIcon col-2" />
             ABOUT ME
             <span className="lineSpan col-12" />
           </NavLink>
 
-          <NavLink className="linkS col-12" to="/Portfolio">
+          <NavLink
+            className="linkS col-12"
+            to="/Portfolio"
+            onClick={() => setClicked(0)}
+          >
             <i className="fa-solid fa-briefcase lincIcon col-2" />
             MY PORTFOLIO
             <span className="lineSpan col-12" />
           </NavLink>
 
-          <NavLink className="linkS col-12" to="/Contact">
+          <NavLink
+            className="linkS col-12"
+            to="/Contact"
+            onClick={() => setClicked(0)}
+          >
             <i className="fa-solid fa-envelope lincIcon col-2" />
             CONTACT ME
             <span className="lineSpan col-12" />

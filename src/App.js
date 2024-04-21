@@ -12,6 +12,7 @@ import HeaderModal from "./components/HeaderModal";
 import { QueryClient, QueryClientProvider } from "react-query";
 // import { ToastContainer } from "react-toastify";
 import { Toaster } from "react-hot-toast";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -46,7 +47,7 @@ function App() {
               <Route path="/About" element={<AboutMe />} />
               <Route path="/Portfolio" element={<Portfolio />} />
               <Route path="/Contact" element={<ContactMe />} />
-              <Route path="*" element={<h1>This Page Is Not Found</h1>} />
+              <Route path="*" element={<NotFoundPage />} />
             </Route>
           </Routes>
           <Outlet />

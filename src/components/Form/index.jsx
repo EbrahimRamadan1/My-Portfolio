@@ -49,12 +49,12 @@ export default function Form() {
     }
 
     if (Object.keys(validationErrors).length === 0) {
-      toast.success("Hello Darkness!", {
+      toast.success("Your message had sent.", {
         style: {
           borderRadius: "10px",
           background: "#333",
           color: "#fff",
-          maxHeight: "50px",
+          maxHeight: "auto",
           top: "0",
           border: "1px solid #ffb400",
         },
@@ -76,7 +76,7 @@ export default function Form() {
           }
         );
     } else {
-      toast.error("This didn't work.", {
+      toast.error("Please fill all fields.", {
         style: {
           borderRadius: "10px",
           background: "#333",

@@ -10,7 +10,6 @@ import { useRecoilState } from "recoil";
 import { $HeaderModal } from "./store";
 import HeaderModal from "./components/HeaderModal";
 import { QueryClient, QueryClientProvider } from "react-query";
-// import { ToastContainer } from "react-toastify";
 import { Toaster } from "react-hot-toast";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -32,10 +31,10 @@ function App() {
           <Toaster
             position="top-right"
             reverseOrder={false}
-            containerStyle={{
-              height: "auto",
+            toastOptions={{
+              duration: 2000
             }}
-            // gutter={0}
+
           />
 
           <Header />

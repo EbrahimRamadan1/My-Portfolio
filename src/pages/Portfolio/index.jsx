@@ -10,7 +10,7 @@ export default function Portfolio() {
       </h2>
       <h3 className="col-12 text-center">
         <span>GITHUB:</span>{" "}
-        <a href="https://github.com/EbrahimRamadan1">EbrahimRamadan1</a>
+        <a href="https://github.com/EbrahimRamadan1" target="_blank" rel="noreferrer">EbrahimRamadan1</a>
       </h3>
       {jsonProjects.map((el) => {
         return (

@@ -54,7 +54,7 @@ export default function Form() {
           borderRadius: "10px",
           background: "#333",
           color: "#fff",
-          maxHeight: "auto",
+          maxHeight: "50px",
           top: "0",
           border: "1px solid #ffb400",
         },

@@ -64,7 +64,7 @@ export default function Form() {
         },
       });
       emailjs
-        .sendForm("service_d548jjf", "template_ctlrl4t", form.current, {
+        .sendForm("service_3qawo5w", "template_ctlrl4t", form.current, {
           publicKey: "ezvpb5qnJarYZokzk",
         })
         .then(

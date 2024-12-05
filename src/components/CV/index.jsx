@@ -8,7 +8,7 @@ export default function Button(props) {
   return (
     <>
       <a
-        href="/Ebrahim Ramadan Ebrahim CV.pdf"
+        href="/Ebrahim Ramadan Ebrahim Resume.pdf"
         download="Ebrahim Ramadan Ebrahim CV.pdf"
         onClick={() => navigation("/About")}
         className="button2"

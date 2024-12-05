@@ -8,13 +8,34 @@
   },
   {
     "id": "2",
+    "name": "Triple A",
+    "discription": "An e-commerce web application enables users to browse and purchase products online seamlessly. It simplifies shopping with an intuitive interface, enhancing customer convenience..",
+    "languages": "html5, css3, Tailwind, Javascript , React.js, APIs services",
+    "preview": "https://traiple-a.netlify.app/"
+  },
+  {
+    "id": "3",
     "name": "GYMPANZEE",
     "discription": "GYMPANZEE is a website about gyms that provides services and offers for this gym, available trainers and their appointments.",
     "languages": "html5, css3, bootstrap, Javascript",
     "preview": "https://ebrahimramadan1.github.io/GYMPANZEE-GYM/"
   },
   {
-    "id": "3",
+    "id": "4",
+    "name": "Journal",
+    "discription": "Journal is a dynamic website designed to keep users updated with the latest news from around the globe. It offers real-time updates, personalized topics, and an intuitive interface for seamless browsing of current events.",
+    "languages": "html5, css3, bootstrap, Javascript",
+    "preview": "https://github.com/EbrahimRamadan1/Journal"
+  },
+  {
+    "id": "5",
+    "name": "CRUD Project",
+    "discription": "CRUD Project is a web app for creating, reading, updating, and deleting data with ease. It ensures efficient and organized data management. ",
+    "languages": "html5, css3, bootstrap, Javascript",
+    "preview": "https://crud18.netlify.app/"
+  },
+  {
+    "id": "6",
     "name": "Ecenter",
     "discription": "Ecenter is an online educational platform that explains the services provided by that platform, its special offers, the courses it offers, as well as lecture dates.",
     "languages": "html5, css3, bootstrap",

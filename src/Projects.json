@@ -1,44 +1,58 @@
 [
   {
     "id": "1",
-    "name": "ADOPT ME",
-    "discription": "ADOPT ME is a web application for different pets. If you want to adopt a pet, you can use it to search for the pet you want.",
-    "languages": "html5, css3, bootstrap, Javascript , React.js, APIs services",
-    "preview": "https://github.com/EbrahimRamadan1/Adopt-Me"
+    "name": "EvoGym",
+    "discription": "EvoGym is a fitness website offering expert training, state-of-the-art facilities, and personalized programs to help you achieve your health goals.",
+    "languages": "HTM5, Tailwind.css, TypeScript , React.js",
+    "preview": "https://evoo-gym.netlify.app/"
   },
   {
     "id": "2",
     "name": "Triple A",
-    "discription": "An e-commerce web application enables users to browse and purchase products online seamlessly. It simplifies shopping with an intuitive interface, enhancing customer convenience..",
-    "languages": "html5, css3, Tailwind, Javascript , React.js, APIs services",
+    "discription": "An e-commerce web application enables users to browse and purchase products online seamlessly. It simplifies shopping with an intuitive interface, enhancing customer convenience.",
+    "languages": "HTM5, CSS3, Tailwind, Javascript, React.js, APIs services",
     "preview": "https://traiple-a.netlify.app/"
   },
   {
     "id": "3",
-    "name": "GYMPANZEE",
-    "discription": "GYMPANZEE is a website about gyms that provides services and offers for this gym, available trainers and their appointments.",
-    "languages": "html5, css3, bootstrap, Javascript",
-    "preview": "https://ebrahimramadan1.github.io/GYMPANZEE-GYM/"
+    "name": "My Todos",
+    "discription": "It's a web application that can help you remember your tasks during your day.",
+    "languages": "HTM5, Tailwind.css, TypeScript, React.js",
+    "preview": "https://mytodoss-app.netlify.app/"
   },
   {
     "id": "4",
-    "name": "Journal",
-    "discription": "Journal is a dynamic website designed to keep users updated with the latest news from around the globe. It offers real-time updates, personalized topics, and an intuitive interface for seamless browsing of current events.",
-    "languages": "html5, css3, bootstrap, Javascript",
-    "preview": "https://github.com/EbrahimRamadan1/Journal"
+    "name": "ADOPT ME",
+    "discription": "ADOPT ME is a web application for different pets. If you want to adopt a pet, you can use it to search for the pet you want.",
+    "languages": "HTM5, CSS3, Bootstrap.css, Javascript , React.js, APIs services",
+    "preview": "https://github.com/EbrahimRamadan1/Adopt-Me"
   },
   {
     "id": "5",
-    "name": "CRUD Project",
-    "discription": "CRUD Project is a web app for creating, reading, updating, and deleting data with ease. It ensures efficient and organized data management. ",
-    "languages": "html5, css3, bootstrap, Javascript",
-    "preview": "https://crud18.netlify.app/"
+    "name": "GYMPANZEE",
+    "discription": "GYMPANZEE is a website about gyms that provides services and offers for this gym, available trainers and their appointments.",
+    "languages": "HTM5, CSS3, Bootstrap.css, Javascript",
+    "preview": "https://ebrahimramadan1.github.io/GYMPANZEE-GYM/"
   },
   {
     "id": "6",
+    "name": "Journal",
+    "discription": "Journal is a dynamic website designed to keep users updated with the latest news from around the globe. It offers real-time updates, personalized topics, and an intuitive interface for seamless browsing of current events.",
+    "languages": "HTM5, CSS3, Bootstrap.css, Javascript",
+    "preview": "https://github.com/EbrahimRamadan1/Journal"
+  },
+  {
+    "id": "7",
+    "name": "CRUD Project",
+    "discription": "CRUD Project is a web app for creating, reading, updating, and deleting data with ease. It ensures efficient and organized data management. ",
+    "languages": "HTM5, CSS3, Bootstrap.css, Javascript",
+    "preview": "https://crud18.netlify.app/"
+  },
+  {
+    "id": "8",
     "name": "Ecenter",
     "discription": "Ecenter is an online educational platform that explains the services provided by that platform, its special offers, the courses it offers, as well as lecture dates.",
-    "languages": "html5, css3, bootstrap",
+    "languages": "HTM5, CSS3, Bootstrap.css",
     "preview": "https://ebrahimramadan1.github.io/Ecenter/"
   }
 ]

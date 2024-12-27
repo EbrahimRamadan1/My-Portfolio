@@ -2,12 +2,12 @@
   {
     "id": 1,
     "icon": "fa-brands fa-html5",
-    "title": "html5"
+    "title": "HTML5"
   },
   {
     "id": 2,
     "icon": "fa-brands fa-css3-alt",
-    "title": "Css3"
+    "title": "CSS3"
   },
   {
     "id": 3,
@@ -21,42 +21,63 @@
   },
   {
     "id": 5,
-    "icon": "fa-brands fa-bootstrap",
-    "title": "Bootstrap"
+    "icon": "fa-solid fa-t",
+    "title": "TypeScript"
   },
   {
     "id": 6,
-    "icon": "fa-brands fa-wordpress",
-    "title": "WordPress"
+    "icon": "fa-brands fa-bootstrap",
+    "title": "Bootstrap CSS"
   },
   {
     "id": 7,
+    "icon": "fa-solid fa-book-atlas",
+    "title": "Tailwind CSS"
+  },
+
+  {
+    "id": 8,
     "icon": "fa-brands fa-react",
     "title": "React.Js"
   },
   {
-    "id": 8,
+    "id": 9,
+    "icon": "fa-solid fa-book-atlas",
+    "title": "Formik and Yup"
+  },
+  {
+    "id": 10,
+    "icon": "fa-solid fa-book-atlas",
+    "title": "Redux and Recoil"
+  },
+  {
+    "id": 11,
     "icon": "fa-solid fa-globe",
     "title": "All React.Js tools"
   },
   {
-    "id": 9,
+    "id": 12,
+    "icon": "fa-brands fa-wordpress",
+    "title": "WordPress"
+  },
+  {
+    "id": 13,
     "icon": "fa-brands fa-git",
     "title": "Git"
   },
   {
-    "id": 10,
+    "id": 14,
     "icon": "fa-brands fa-github",
     "title": "GitHub"
   },
   {
-    "id": 11,
-    "icon": "fa-solid fa-circle-exclamation",
-    "title": "Problem Solving"
-  },
-  {
-    "id": 12,
+    "id": 15,
     "icon": "fa-solid fa-layer-group",
     "title": "Responsive design"
+  },
+  {
+    "id": 16,
+    "icon": "fa-solid fa-circle-exclamation",
+    "title": "Problem Solving"
   }
 ]
